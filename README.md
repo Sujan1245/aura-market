@@ -28,14 +28,11 @@ Follow these steps to get your local development server up and running.
    ```bash
    npm install
 Configure Environment Variables
+# 1. Install the project dependencies
+npm install && \
 
-Duplicate the .env.example file and rename it to .env.local (or .env).
+# 2. Create the environment file and add the API key template
+echo "GEMINI_API_KEY=your_actual_gemini_api_key_here" > .env.local && \
 
-Add your Gemini API Key:
-
-Code snippet
-GEMINI_API_KEY=your_actual_gemini_api_key_here
-Start the Development Server
-
-Bash
+# 3. Start the local development server
 npm run dev

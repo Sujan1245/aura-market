@@ -1,0 +1,10 @@
+{
+  "name": "AuraMarket",
+  "description": "AuraMarket: A high-tech AI e-commerce hub featuring 'Aura Lens' vision search, intelligent product discovery with Google Search integration, and personalized neural recommendations.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

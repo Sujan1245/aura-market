@@ -27,3 +27,15 @@ Follow these steps to get your local development server up and running.
 1. **Install Dependencies**
    ```bash
    npm install
+Configure Environment Variables
+
+Duplicate the .env.example file and rename it to .env.local (or .env).
+
+Add your Gemini API Key:
+
+Code snippet
+GEMINI_API_KEY=your_actual_gemini_api_key_here
+Start the Development Server
+
+Bash
+npm run dev
